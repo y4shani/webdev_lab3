@@ -1,0 +1,58 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 20px;
+    color: maroon;
+    background-image: url("bg.jpg");
+}
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    background-image: url("barbie3.png");
+}
+
+h2 {
+    background-image: url("love.png");
+    background-size: contain;
+}
+
+h3 {
+    background-image: url("love.png");
+    background-size: contain;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    padding: 10px;
+}
+
+.column.side {
+    width: 25%;
+}
+
+.column.middle {
+    width: 50%;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+
+
